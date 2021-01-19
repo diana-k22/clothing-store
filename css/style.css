@@ -1,0 +1,140 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #cdcdcc;
+    margin-top: 20px;
+} 
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__logo-img {
+    width: 59px;
+    height: 51px;
+    margin-right: 10px;
+}
+
+.header__icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Lato";
+    letter-spacing: 0.025em;
+    font-size: 21px;
+}
+
+.header__icon_spacial-case {
+    color: #f16d7f;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.header__form {
+    margin-left: 30px;
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #eee;
+}
+
+.header__form-search {
+    border: none;
+    width: 85px;
+    height: 31px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.header__arrow {
+    font-size: 14px;
+    line-height: 32px;
+    color: #838383;
+    padding-left: 5px;
+}
+
+.header__form-input {
+    border: 1px solid #e6e6e6;
+    width: 287px;
+}
+
+.header__button-search {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.header__controls {
+    margin-left: auto;
+}
+
+.header__buy-icon {
+    height: 26px;
+    width: 37px;
+    margin-right: 20px;
+}
+
+.header_button-account {
+    margin-top: 10px;
+}
+
+.header_button {
+    padding: 10px 12px 10px 15px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    border: none;
+}
+
+.header__arrow-button{
+    padding-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav a:not(:last-of-type) {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.body__photo {
+   background-image: url(../img/photo-slider.png);
+   height: 609px;
+   position: relative;
+}
+
+.asdf {
+   display: block;    
+}
+
+.title {
+    font-size: 45px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
