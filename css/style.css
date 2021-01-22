@@ -1,9 +1,9 @@
-* {
+html {
     font-family: "Lato", sans-serif;
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -32,11 +32,13 @@ header {
     color: black;
     letter-spacing: 0.025em;
     font-size: 21px;
+    font-family: "Lato", sans-serif;
 }
 
 .header__icon_spacial-case {
     color: #f16d7f;
     text-decoration: none;
+    font-family: "Lato", sans-serif;
 }
 
 .header__form {
@@ -122,17 +124,22 @@ nav a:not(:last-of-type) {
 }
 
 .body__photo {
-   background-image: url(../img/photo-slider.png);
+   background-image: url(../img/slider.png);
    background-repeat: no-repeat;
+   justify-content: center;
    height: 609px;
+   width: 100%;
    position: relative;
-   padding-top: 217px;
-   padding-left: 250px;
+   background-size: cover;
+    overflow: hidden;
 }
 
 .brand {
     padding-left: 26px;
+    margin-top: 200px;
     position: relative;
+    /* top: 217px;
+    left: 250px; */
 }
 
 .brand::before {
@@ -166,3 +173,337 @@ nav a:not(:last-of-type) {
     color: #222222;
     font-weight: 900;
 }
+
+.center_block{
+    display: flex;
+    margin-top: 95px;
+}
+
+.block_left {
+    margin-right: 10px;
+}
+
+.block_man{
+    position: relative;
+    bottom: 20px;
+}
+
+.block_text_man {
+    position: absolute;
+    top: 40px;
+    background-color: #fff;
+    width: 180px;
+    height: 83px;
+}
+
+.top_inscription {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-size: 19px;
+    color: #222222;
+    font-weight: 900;
+}
+
+.bottom_inscription {
+    color: #f16d7f;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.top_inscription, .bottom_inscription {
+    margin-left: 19px;
+}
+
+.block_trend {
+    position: relative;
+}
+
+.block_text_trend {
+    position: absolute;
+    top: 26px;
+    background-color: #fff;
+    width: 221px;
+    height: 80px;
+}
+
+.top_inscription_3 {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.bottom_inscription_3 {
+    color: #f16d7f;
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.top_inscription_3, .bottom_inscription_3 {
+    margin-left: 18px;
+}
+
+.block_right {
+    margin-left: 10px;
+}
+
+.block_women {
+    position: relative;
+    bottom: 20px;
+}
+
+.block_text_women {
+    position: absolute;
+    top: 26px;
+    background-color: #fff;
+    width: 165px;
+    height: 83px;
+}
+
+.top_inscription_2 {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.bottom_inscription_2 {
+    color: #f16d7f;
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.top_inscription_2, .bottom_inscription_2 {
+    margin-left: 20px;
+}
+
+.block_kids {
+    position: relative;
+}
+
+.block_text_kids {
+    position: absolute;
+    top: 26px;
+    background-color: #fff;
+    width: 183px;
+    height: 80px;
+}
+
+.top_inscription_4 {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.bottom_inscription_4 {
+    color: #f16d7f;
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.top_inscription_4, .bottom_inscription_4 {
+    margin-left: 20px;
+}
+
+.section_of_cards {
+    margin-top: 100px;
+}
+
+.heading_section {
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.text_section {
+    margin-bottom: 60px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #9f9f9f;
+    font-weight: 400;
+}
+
+.heading_section, .text_section {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* 
+.catalog_product {
+    margin-top: 90px;
+} */
+
+.card_of_product_top {
+    display: flex;
+}
+
+.product-1, .product-2, .product-3{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.product-1:hover {
+    box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.card__img {
+    position: relative;
+}
+
+.add__wrapper {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.product-1:hover .add__wrapper {
+    display: flex;
+}
+
+.border {
+    border: 2px solid #fff;
+    width: 127px;
+    height: 40px;
+    padding: 8px 2px 0px 9px;
+}
+
+.trash {
+    margin-top: 8px 0px 0px 7px;
+}
+
+.button_card {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.product-2:hover {
+    box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.card__img_1 {
+    position: relative;
+}
+
+.add__wrapper_1 {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.product-2:hover .add__wrapper_1 {
+    display: flex;
+}
+
+.border_1 {
+    border: 2px solid #fff;
+    width: 127px;
+    height: 40px;
+    padding: 8px 2px 0px 9px;
+}
+
+.trash_1 {
+    margin-top: 8px 0px 0px 7px;
+}
+
+.button_card_1 {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+.block_text_catalog{
+    margin-left: 11px;
+    margin-bottom: 16px;
+}
+
+.product_description, .price_of_product{
+    display: block;
+}
+
+.product_description {
+    margin-top: 9px;
+    margin-bottom: 11px;
+    font-size: 13px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.price_of_product {
+    font-size: 16px;
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+
+
+.card_of_product_bottom {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.product-5, .product-6, .product-7 {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.page_transition {
+    text-align: center;
+}
+
+.border_of_button{
+    border: 1px solid #fff;
+    background-color: #f16d7f;
+    color: #fff;
+}
+
+
