@@ -358,7 +358,7 @@ nav a:not(:last-of-type) {
     display: flex;
 }
 
-.product-1, .product-2, .product-3{
+.product-1{
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -407,59 +407,6 @@ nav a:not(:last-of-type) {
     font-weight: 700;
 }
 
-.product-2:hover {
-    box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.5); /* Параметры тени */
-}
-
-.card__img_1 {
-    position: relative;
-}
-
-.add__wrapper_1 {
-    display: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.product-2:hover .add__wrapper_1 {
-    display: flex;
-}
-
-.border_1 {
-    border: 2px solid #fff;
-    width: 127px;
-    height: 40px;
-    padding: 8px 2px 0px 9px;
-}
-
-.trash_1 {
-    margin-top: 8px 0px 0px 7px;
-}
-
-.button_card_1 {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 700;
-}
-
-
-
-
-
-
-
-
-
-
 .block_text_catalog{
     margin-left: 11px;
     margin-bottom: 16px;
@@ -484,26 +431,71 @@ nav a:not(:last-of-type) {
     font-weight: 700;
 }
 
-
-
 .card_of_product_bottom {
     display: flex;
     margin-bottom: 64px;
 }
 
-.product-5, .product-6, .product-7 {
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
+
 
 .page_transition {
     text-align: center;
+    margin-bottom: 112px;
 }
 
 .border_of_button{
     border: 1px solid #fff;
     background-color: #f16d7f;
     color: #fff;
+    padding: 15px 15px 15px 19px;
+    text-decoration: none;
+}
+
+.button_product {
+    margin-right: 5px;
 }
 
 
+
+.banner__wrapper {
+    background-image: url(../img/baneer-2.png);
+    width: 765px;
+    height: 529px;
+    margin-bottom: 100px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.banner_block_left {
+    padding-top: 140px;
+    padding-left: 37px;
+}
+
+.text-30{
+    padding-right: 12px;
+    font-size: 54px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.text-offer {
+    font-size: 54px;
+    letter-spacing: 1px;
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+.text-for-women {
+    padding-top: 9px;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.banner_block_right {
+    width: 368px;
+    height: 535px;
+    background-color: #222224;
+}
