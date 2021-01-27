@@ -446,6 +446,11 @@ nav a:not(:last-of-type) {
     text-decoration: none;
 }
 
+.border_of_button:hover {
+    background-color: #7a7a7a;
+
+}
+
 .button_product {
     margin-right: 5px;
 }
@@ -854,6 +859,10 @@ nav a:not(:last-of-type) {
     margin-left: 8px;
 } 
 
+.footer_copy-social:hover {
+    background-color: #f16d7f;
+    color: #fff;
+}
 
 
 
