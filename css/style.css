@@ -9,7 +9,7 @@ html {
 
 header {
     border-bottom: 1px solid #cdcdcc;
-    margin-top: 20px;
+
 } 
 
 .header__wrapper{
@@ -38,6 +38,7 @@ header {
 .header__icon_spacial-case {
     color: #f16d7f;
     text-decoration: none;
+    font-weight: 800;
     font-family: "Lato", sans-serif;
 }
 
@@ -179,13 +180,17 @@ nav a:not(:last-of-type) {
     margin-top: 95px;
 }
 
+.offer-cards-img {
+    display: block;
+}
+
 .block_left {
     margin-right: 10px;
 }
 
 .block_man{
     position: relative;
-    bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .block_text_man {
@@ -254,7 +259,7 @@ nav a:not(:last-of-type) {
 
 .block_women {
     position: relative;
-    bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .block_text_women {
@@ -344,26 +349,16 @@ nav a:not(:last-of-type) {
 
 
 
-
-
-
-
-
-/* 
-.catalog_product {
-    margin-top: 90px;
-} */
-
 .card_of_product_top {
     display: flex;
 }
 
-.product-1{
+.name_product_for_cards{
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.product-1:hover {
+.name_product_for_cards:hover {
     box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.5); /* Параметры тени */
 }
 
@@ -384,7 +379,7 @@ nav a:not(:last-of-type) {
     left: 0;
 }
 
-.product-1:hover .add__wrapper {
+.name_product_for_cards:hover .add__wrapper {
     display: flex;
 }
 
@@ -457,13 +452,19 @@ nav a:not(:last-of-type) {
 
 
 
-.banner__wrapper {
-    background-image: url(../img/baneer-2.png);
-    width: 765px;
-    height: 529px;
-    margin-bottom: 100px;
+/* .banner__wrapper {
    display: flex;
-   align-items: flex-start;
+    margin-bottom: 100px;
+    width: 1140px;
+    height: 529px;
+    background-color: #222224;
+}
+
+.banner__box_img {
+    background-image: url(../img/baneer-2.png);
+    background-repeat: no-repeat;
+    height: 528px;
+    width: 765px;
 }
 
 .banner_block_left {
@@ -484,6 +485,7 @@ nav a:not(:last-of-type) {
     letter-spacing: 1px;
     color: #f16d7f;
     font-weight: 700;
+    
 }
 
 .text-for-women {
@@ -492,10 +494,368 @@ nav a:not(:last-of-type) {
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
+    display: flex;
 }
 
-.banner_block_right {
-    width: 368px;
-    height: 535px;
-    background-color: #222224;
+.whole_block_for_delivery, .whole_block_for_sales, .whole_block_for_quality{
+    display: flex;
 }
+
+.whole_block_for_delivery{
+    margin-bottom: 25px;
+}
+
+.img_fot_block_delivery{
+    width: 45px;
+    height: 32px;
+    margin: 43px 30px 0px 35px;
+}
+
+.banner_block_right_text{
+    margin-top: 52px;
+   
+}
+
+.text__title {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fbfbfb;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.text__subtitle{
+    width: 236px;
+    height: 93px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: #fbfbfb;
+    font-weight: 300;
+}
+
+
+.whole_block_for_sales{
+    margin-bottom: 26px;
+}
+
+.img_fot_block_sales{
+    width: 40px;
+    height: 40px;
+    margin: 0px 34px 0px 35px;
+}
+
+.img_fot_block_quality{
+    width: 47px;
+    height: 35px;
+    margin: 0px 30px 0px 35px;
+}
+
+.whole_block_for_quality{
+    width: 373px;
+    height: 185px;
+}
+
+/* .free-delivery {
+    background-image: url(../img/free-delivery.png);
+    height: 32px;
+    width: 45px;
+} */ 
+
+
+.offer {
+    display: flex;
+    color: white;
+    margin-bottom: 97px;
+}
+
+.offer__main {
+    background: url(../img/baneer-2.png) no-repeat center center / cover;
+    overflow: hidden;
+    width: 72%;
+}
+
+.offer__main-text {
+    margin: 145px 0 300px 40px;
+}
+
+.offer__main-text-title {
+    font-size: 54px;
+    line-height: 1.1;
+}
+
+.offer__main-text-title, .offer__main-text-subtitle {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.offer__main-text-special {
+    color: #f16d7f;
+    margin-left: 15px;
+}
+
+.offer__main-text-subtitle {
+    font-size: 32px;
+}
+
+.offer__advantages {
+    background-color: #222224;
+    width: 28%;
+    padding: 50px 40px;
+}
+
+.offer__advantage:not(:last-of-type) {
+    margin-bottom: 60px;
+}
+
+.offer__advantage-sales:not(:last-of-type) {
+    margin-bottom: 60px;
+}
+
+.offer__advantage {
+    padding-left: 75px;
+    background: url(../img/free-delivery.png) top left no-repeat;
+}
+
+.offer__advantage-sales{
+    padding-left: 75px;
+    background: url(../img/sales.png) top left no-repeat;
+}
+
+.offer__advantage-quality{
+    padding-left: 75px;
+    background: url(../img/quality.png) top left no-repeat;
+}
+
+.offer_advantage-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.offer_advantage-description {
+    font-size: 14px;
+    line-height: 2;
+    color: #fbfbfb;
+    font-weight: 300;
+}
+
+
+
+.new-letter{
+    background-color: #e1e1e1;
+    background: url(../img/phon-block-7.png) repeat center;
+    background-size: cover;
+    margin-bottom: 105px;
+}
+
+.add-wrapper {
+    display: flex;
+    padding: 107px 0px 200px 0px;
+}
+
+.new_letter-review {
+    width: 492px; 
+    height: 196px;
+    display: flex;
+    position: relative;
+}
+
+.new_letter_review-img{
+    width: 83px;
+    height: 83px;
+}
+
+
+.new_letter_review-text{
+    display: block;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.new_letter_review-text::before{
+    content: '';
+    display: block;
+    width: 1px;
+    background-color: #e3e3e3;
+
+    position: absolute;
+    left: 0;
+    top: -107px;
+    bottom: -199px;
+    margin-left: 570px;
+}
+
+.new_letter_review_text-tittle{
+    display: flex;
+    width: 385px;
+    height: 80px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #222224;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.new_letter_review_text-name{
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+.new_letter_review_text_name-subtitle{
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #868687;
+}
+
+
+.subscribe {
+    width: 390px;
+    justify-content: center;
+    margin-left: 166px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subscribe_text-title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 54px;
+    color: #222224;
+}
+
+.subscribe_text-subtitle {
+    margin-bottom: 40px;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe_form-input {
+    padding: 17px 147px 17px 23px;
+    border-radius: 23px 0 0 23px;
+    color: #222224;
+    background-color: #e1e1e1;
+    letter-spacing: 0.03em;
+    border: none;
+}
+
+.subscribe_form_input-button {
+    background-color: #f16d7f;
+    border-radius: 0 23px 23px 0;
+    color: #ffffff;
+    border: none;
+    padding: 0 20px;
+    letter-spacing: 0.03em;
+}
+
+
+.footer-nav {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.footer_nav-logo {
+    width: 427px;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+}
+
+.footer_nav_logo-description {
+    font-size: 14px;
+    line-height: 28px;
+    color: #898989;
+    font-weight: 300;
+    margin: 25px 0 35px;
+}
+
+.footer_nav_logo_description-text {
+    line-height: 28px;
+}
+
+
+.information {
+    margin-left: 95px;
+}
+
+.information-title {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    margin: 13px 0px 29px;
+}
+
+.information_title-list {
+    list-style-type: none;
+    text-align: left;
+}
+
+.information_title_list-categories {
+    line-height: 3;
+}
+
+.information_title_list-link {
+    text-decoration: none;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.footer-copyright {
+    background-color: #e6e6e6;
+
+}
+
+.footer_copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_copy-text, .footer_copy_text-button {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer_copy-text {
+    display: flex;
+    align-items: center;
+}
+
+.footer_copy_text-button {
+    display: flex;
+}
+
+.footer_copy-social {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    color: #b2b2b2;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 8px;
+} 
+
+
+
+
+
+
