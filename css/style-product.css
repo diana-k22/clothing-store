@@ -1,0 +1,228 @@
+.arrivals {
+    background-color: #f8f3f4;
+    margin-bottom: 60px;
+}
+
+.arrivals-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrivals-new, .arrivals-link {
+    padding: 65px 0px;
+}
+
+.arrivals-new {
+    font-size: 24px;
+    line-height: 20px;
+    color: #f16d7f;
+    font-weight: 900;
+    text-align: center;
+}
+
+.arrivals-link__home, .arrivals-link__man {
+    font-size: 14px;
+    line-height: 20px;
+    color: #636363;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.arrivals-link__new {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f16d7f;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.main-product{
+    display: flex;
+}
+
+
+
+
+
+
+.product-nav__categories{
+    width: 250px;
+    margin-right: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+
+.hide:checked + .product-nav__label-product {
+    color:#ef5b70;
+}
+
+.hide + .product-nav__label-product {
+    width: 100%;
+}
+
+.product-nav__label-product:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.product-nav__label-product {
+    padding-left: 18px;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    line-height: 38px;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 5px solid #ef5b70;
+}
+
+.hide:checked + .product-nav__label-product + .product-nav__type-product {
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    padding-left: 23px;
+    padding-bottom: 30px;
+}
+
+.hide + .product-nav__label-product ~ .product-nav__type-product {
+    display: none;
+}
+
+.type-product__attribute {
+    display: block;
+    text-decoration: none;
+    color: #6f6e6e;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.hide + .product-nav__label-product {
+    width: 100%;
+}
+
+.product-nav__label-product:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.product-nav__label-product {
+    padding-left: 18px;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    line-height: 38px;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 5px solid #ef5b70;
+}
+
+
+
+.featured-items__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer-cards {
+    margin: 45px 0px 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cards__pagination {
+    display: inline-block;
+    border: 1px solid #c4c4c4;
+  }
+  
+.footer-cards__pagination a {
+    color:  #c4c4c4;
+    float: left;
+    padding: 11px 11px;
+    text-decoration: none;
+  }
+  
+.footer-cards__pagination a.active {
+    color: #ef5b70;
+  }
+  
+.footer-cards__pagination a:hover:not(.active) {color: #ef5b70;}
+
+.footer-cards__button {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ef5b70;
+    font-weight: 400;;
+    background: transparent;
+    padding: 0 46px;
+    border: 1px solid #ef5b70;
+    border-radius: 2px;
+}
+
+
+
+
+.options {
+    background: #222224;
+    padding: 90px 0;
+}
+
+.options__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #222224;
+}
+
+.options__free-delivery {
+    background: url(../img/free-delivery.png) top no-repeat;
+}
+
+.option__title {
+    display: block;
+    color: #fbfbfb;
+    font-weight: 700;
+    font-family: "Lato";
+    font-size: 20px;
+    padding-top: 9px;
+    margin-bottom: 11px;
+}
+
+.option__description {
+    font-size: 14px;
+    line-height: 25px;
+    color: #fbfbfb;
+    font-weight: 300;
+    font-family: "Lato";
+}
+
+.options__sales {
+    background: url(../img/sales.png) top no-repeat;
+}
+
+.options__quality {
+    background: url(../img/quality.png) top no-repeat;
+}
+
+.options__free-delivery, .options__sales, .options__quality {
+    display: block;
+    text-align: center;
+    width: 27%;
+    padding-top: 55px;
+
+}
