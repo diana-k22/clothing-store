@@ -352,9 +352,9 @@ nav a:not(:last-of-type) {
 
 
 .featured-items {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .featured-items__item:nth-of-type(-n + 9) {
