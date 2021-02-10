@@ -28,6 +28,7 @@
     justify-content: center;
     padding-bottom: 43px;
     border-bottom: 1px solid#eaeaea;
+    position: relative;
 }
 
 /* .women__collection::after {
@@ -44,6 +45,33 @@
 } */
 
 
+.women__collection-title::before {
+    content: "";
+    display: block;
+    background-color: #f16d7f;
+    width: 63px;
+    height: 4px;
+
+    position: absolute;
+    top: 33px;
+    left: 540px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.women__collection-subtitle::before {
+    content: "";
+    display: block;
+    background-color: #eaeaea;
+    width: 148px;
+    height: 1px;
+
+    position: absolute;
+    top: 34px;
+    left: 495px;
+    bottom: 0;
+}
+
 
 .women__collection-title {
     font-size: 14px;
@@ -51,6 +79,7 @@
     color: #f16d7f;
     font-weight: 700;
     text-transform: uppercase;
+    padding-bottom: 31px;
  
 }
 
@@ -221,18 +250,13 @@
 }
 
 .women__collection-button-img:hover {
-    color: #fff;
-    background-color:#bcbcbc ;
-    opacity: 0.8;
+    color: rgb(131, 23, 23);
+    transform: scale(0.9);
 }
 
 .women__collection-img {
     margin-right: 13px;
 }
-
-
-
-
 
 
 
