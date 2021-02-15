@@ -1,13 +1,31 @@
 .arrivals-slider {
     background-color:#f8f3f4 ;
+    width: 100%;
+    position: relative;
 }
 
 .slider-home {
+
 }
-.slider__arrow {
+
+.slider-img {
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-arrow {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: absolute;
+    top: 335px;
+}
+
+.slider__arrow {
+    position: absolute;
+    top: 688px;
+    left: 1552px;
 }
 
 
@@ -30,20 +48,6 @@
     border-bottom: 1px solid#eaeaea;
     position: relative;
 }
-
-/* .women__collection::after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-bottom: 1px solid#eaeaea;
-    top: 0px;
-    right: 0px;
-    left: 249px;
-    bottom: 0px;
-    width: 640px;
-
-} */
-
 
 .women__collection-title::before {
     content: "";

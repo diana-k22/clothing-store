@@ -135,7 +135,7 @@ nav a:not(:last-of-type) {
     margin-right: 50px;
 }
 
-.body__photo {
+.main {
    background-image: url(../img/slider.png);
    background-repeat: no-repeat;
    justify-content: center;
@@ -186,7 +186,7 @@ nav a:not(:last-of-type) {
     font-weight: 900;
 }
 
-.center_block{
+.hot-deal{
     display: flex;
     margin-top: 95px;
 }
@@ -195,7 +195,7 @@ nav a:not(:last-of-type) {
     display: block;
 }
 
-.hotdeal_column {
+.hot-deal__column {
     margin-right: 10px;
 }
 
@@ -264,7 +264,7 @@ nav a:not(:last-of-type) {
     margin-left: 18px;
 }
 
-.hotdeal_of-column {
+.hot-deal-of-column {
     margin-left: 10px;
 }
 
